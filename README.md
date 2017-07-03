@@ -13,5 +13,7 @@
 |            | stu_class      | tea_birth      | cou_time      | score        |             |  
 |            | stu_birth      | tea_degree     | cou_hour      |              |             |  
 |            |                |                | cou_teacher   |              |             |  
- 
+
+
+--- 
 学生、教师、课程信息表支持通过某一属性直接查询，成绩表支持通过学生信息和课程信息联合查询
