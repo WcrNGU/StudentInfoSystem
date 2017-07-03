@@ -5,7 +5,11 @@
 3. 管理员用户登陆后选择要操作的表（比上面多一个班级信息），选择操作方式（增加一条信息、删除一条信息、修改信息、查询信息、浏览信息）
 4. 打印信息
 
-| Table user |  
-| ---------- |  
-| username   |  
-| password   |  
+## 数据库表Database StuInfo
+| Table user | Table Students | Table Teachers | Table Courses | Table Scores | Tbale Class |  
+| ---------- | -------------- | -------------- | ------------- | ------------ | ------------|  
+| username   | stu_id         | tea_name       | cou_name      | stu_id       | class_id    |  
+| password   | stu_name       | tea_course     | cou_class     | cou_name     |             |  
+|            | stu_class      | tea_birth      | cou_time      | score        |             |  
+|            | stu_birth      | tea_degree     | cou_hour      |              |             |  
+|            |                |                | cou_teacher   |              |             |  
