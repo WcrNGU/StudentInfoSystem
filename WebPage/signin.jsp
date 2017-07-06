@@ -45,9 +45,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         }else{
         	out.print("<script>alert('账户密码错误！即将返回登陆界面'); window.location='index.jsp' </script>");
         }
-    	out.println("提交信息成功！");
-    	out.print("本页面将在3秒后自动跳转到登陆页面！");
-    	out.print("<meta   http-equiv="+"refresh"+"  content=" +"3;url=index.jsp"+">");
      %>
   </body>
 </html>
